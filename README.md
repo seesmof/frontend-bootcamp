@@ -29,7 +29,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Simple one-page Bootstrap5 project of a website of a fictional Frontend Bootcamp. Made by a tutorial of [TraversyMedia](https://www.youtube.com/c/TraversyMedia) to learn and practice Bootstrap.
+Simple one-page Bootstrap5 project of a website of a fictional Frontend Bootcamp. Made by a tutorial of [TraversyMedia](https://www.youtube.com/watch?v=4sosXZsdy-s) to learn and practice Bootstrap.
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
