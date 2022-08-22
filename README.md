@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img src="https://www.pragimtech.com/wp-content/uploads/2019/04/bootstrap.jpg" alt="Project logo"></a>
+ <img src="https://pbs.twimg.com/media/EROgu2QWkAcdUrv.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Frontend Bootcamp</h3>
