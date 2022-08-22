@@ -13,6 +13,7 @@
     <!-- Bootstrap CSS v5.2.0-beta1 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
@@ -20,7 +21,7 @@
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
 
         <!-- container -->
         <div class="container">
@@ -55,8 +56,8 @@
 
     </nav>
 
-    <!-- showcase -->
-    <section class="bg-dark text-light p-5 text-center text-sm-start">
+    <!-- showcase section -->
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
 
         <!-- container -->
         <div class="container">
@@ -83,6 +84,164 @@
         </div>
 
     </section>
+
+    <!-- newsletter section -->
+    <section class="bg-primary text-light p-5">
+
+        <!-- container -->
+        <div class="container">
+
+            <!-- flex container -->
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+
+                <div class="input-group newsletter-input">
+                    <input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's Email"
+                        aria-describedby="button-addon2">
+                    <button type="button" class="btn btn-dark btn-lg" id="button-addon2">Subscribe</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- boxes section -->
+    <section class="p-5">
+
+        <!-- container -->
+        <div class="container">
+
+            <!-- row -->
+            <div class="row g-4">
+
+                <div class="col-md">
+
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi-laptop"></i>
+                            </div>
+
+                            <h3 class="card-title mb-3">Virtual</h3>
+
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit
+                                minus architecto omnis, temporibus tenetur?</p>
+
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md">
+
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi-person-square"></i>
+                            </div>
+
+                            <h3 class="card-title mb-3">Hybrid</h3>
+
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit
+                                minus architecto omnis, temporibus tenetur?</p>
+
+                            <a href="#" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md">
+
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi-people"></i>
+                            </div>
+
+                            <h3 class="card-title mb-3">In Person</h3>
+
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit
+                                minus architecto omnis, temporibus tenetur?</p>
+
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- learn fundementals section -->
+    <section class="p-5" id="learn">
+
+        <!-- container -->
+        <div class="container">
+
+            <!-- row -->
+            <div class="row align-items-center justify-content-between">
+
+                <div class="col-md">
+                    <img src="./img/fundamentals.svg" alt="Fundementals" class="img-fluid">
+                </div>
+
+                <div class="col-md p-5">
+                    <h2>Learn The Fundementals</h2>
+
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sed magni
+                        voluptates molestiae facere vel?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsum nesciunt nemo accusamus
+                        provident a autem impedit fuga temporibus unde, magnam et harum nisi. Rerum quis in molestiae
+                        assumenda corporis.</p>
+
+                    <a href="#" class="btn btn-light mt-3"><i class="bi bi-chevron-right"></i>Read More</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- learn react section -->
+    <section class="p-5 bg-dark" id="learn">
+
+        <!-- container -->
+        <div class="container">
+
+            <!-- row -->
+            <div class="row align-items-center justify-content-between text-light">
+
+                <div class="col-md p-5">
+                    <h2>Learn React</h2>
+
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sed magni
+                        voluptates molestiae facere vel?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsum nesciunt nemo accusamus
+                        provident a autem impedit fuga temporibus unde, magnam et harum nisi. Rerum quis in molestiae
+                        assumenda corporis.</p>
+
+                    <a href="#" class="btn btn-light mt-3"><i class="bi bi-chevron-right"></i>Read More</a>
+                </div>
+
+                <div class="col-md">
+                    <img src="./img/react.svg" alt="Fundementals" class="img-fluid">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- questions section -->
+    <section class="p-5" id="questions"></section>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
