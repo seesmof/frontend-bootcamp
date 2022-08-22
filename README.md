@@ -35,7 +35,7 @@ Simple one-page Bootstrap5 project of a website of a fictional Frontend Bootcamp
 
 - [Live View](https://seesmof.github.io/frontend-bootcamp/)
 
-![Website Page](./img/Registration-Form.png)
+![Website Page](./img/Frontend-Bootcamp.png)
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
